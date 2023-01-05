@@ -17,7 +17,7 @@ bool handleOTA = false;
 
 
 
-#define MQTT_HOST IPAddress(132, 145, 71, 107)
+#define MQTT_HOST IPAddress(0, 0, 0, 0)
 #define MQTT_PORT 1883
 
 AsyncMqttClient mqttClient;
